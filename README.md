@@ -1,20 +1,13 @@
-# Install
+### Hi there 👋, Quick Pound
+#### An app for expats everywhere!
+![An app for expats everywhere!](https://i.imgur.com/TNlC5MJ.jpg)
 
-`npm install`
+QuickPound is a web application that provide social interaction between members with social post and images.
 
----
+Skills:  EJS / CSS / Bootstrap / JS / Node.js 
 
-# Things to add
 
-- Create a `.env` file in config folder and add the following as `key = value`
-  - PORT = 2121 (can be any port example: 3000)
-  - DB_STRING = `your database URI`
-  - CLOUD_NAME = `your cloudinary cloud name`
-  - API_KEY = `your cloudinary api key`
-  - API_SECRET = `your cloudinary api secret`
 
----
 
-# Run
 
-`npm start`
+

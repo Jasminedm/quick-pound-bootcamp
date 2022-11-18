@@ -7,6 +7,14 @@
             <a href="/post/<%= posts[i]._id%>">
               <img class="img-fluid" src="<%= posts[i].image%>">
             </a>
+            <form action="/comment/createComment/<%= posts[i]._id %>" method="post">
+              <textarea name="comment" id="" cols="30" rows="10"></textarea>
+              <button type="submit">Comment</button> 
+            </form>
+            <% for(let i = 0; i < comment.length; i++){ %>
+              <h6><%= comment[i].comment %></h6>
+           <% } %>
+            
           </li>
         <% } %>
         </ul>
